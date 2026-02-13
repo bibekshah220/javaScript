@@ -64,5 +64,65 @@ value = undefined;
 console.log(typeof value);  // Output: undefined
 
 value = Symbol('id');
-console.log(typeof value);  // Output: symbol   
+console.log(typeof value);  // Output: symbol  
+
 value = 12345678901234567890n;
+// modulus operator
+let a1 = 10;
+let b1 = 3;
+console.log(a1 % b1); // Output: 1 
+
+// Exponentiation operator
+let base = 2;
+let exponent = 3;
+console.log(base ** exponent); // Output: 8 
+
+// Increment operator
+let count = 5;
+console.log(++count); // Output: 6
+
+let count2 = 10
+console.log(count2++); // Output: 10
+
+let count3 = 20
+console.log(++count3); // Output: 21
+
+// Decrement operator
+let total = 10;
+console.log(--total); // Output: 9  
+
+// unary operators
+let num = 5;
+console.log(+num); // Output: 5
+a++; // a is now 2
+console.log(a);
+// post increment
+let b = 5;
+console.log(b++);   // Output: 5
+
+// post decrement
+let c = 5;
+console.log(c--);   // Output: 5       
+//pre increment
+let d = 5;
+console.log(++d);   // Output: 6        
+
+//assignment operators
+let e = 10;
+e += 5; // e is now 15
+e -= 3; // e is now 12
+e *= 2; // e is now 24  
+
+// comparison operators     
+let f = 5;
+let g = 10;
+console.log(f == g);   // Output: false
+console.log(f != g);   // Output: true
+// logical operators
+let isLoggedIn = true;  
+let hasPermission = false;
+console.log(isLoggedIn && hasPermission); // Output: false
+// logical OR operator
+console.log(isLoggedIn || hasPermission); // Output: true
+// logical NOT operator
+console.log(!isLoggedIn); // Output: false          
