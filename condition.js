@@ -71,6 +71,15 @@ if (num > 0) {
 let age = 18;
 let canVote = (age >= 18) ? "Yes, you can vote." : "No, you cannot vote.";
 console.log(canVote); // Output: Yes, you can vote.
+let isEven = (num % 2 === 0) ? "Even" : "Odd";
+console.log(isEven); // Output: Odd 
+let isAdult = (age >= 18) ? "Adult" : "Minor";
+console.log(isAdult); // Output: Adult  
+let accessLevel = (age >= 18) ? "Full Access" : "Restricted Access";
+console.log(accessLevel); // Output: Full Access  
+  let isWeekend = (day === 6 || day === 7) ? "It's the weekend!" : "It's a weekday.";
+console.log(isWeekend); // Output: It's a weekday! 
+
 // Logical operators
 let isRaining = true;
 let hasUmbrella = false;    
