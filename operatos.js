@@ -119,10 +119,20 @@ let g = 10;
 console.log(f == g);   // Output: false
 console.log(f != g);   // Output: true
 // logical operators
-let isLoggedIn = true;  
-let hasPermission = false;
+// let isLoggedIn = true;  
+// let hasPermission = false;
 console.log(isLoggedIn && hasPermission); // Output: false
 // logical OR operator
 console.log(isLoggedIn || hasPermission); // Output: true
 // logical NOT operator
-console.log(!isLoggedIn); // Output: false          
+console.log(!isLoggedIn); // Output: false     
+
+// arithmetic operators
+let book = 15;
+let car = 4;
+console.log(book + car); // Output: 19
+console.log(book - car); // Output: 11
+console.log(book * car); // Output: 60
+console.log(book / car); // Output: 3.75
+console.log(book % car); // Output: 3
+console.log(book ** car); // Output: 50625  
